@@ -2,7 +2,6 @@
 
 <head>
     <title>MoneyTrans</title>
-    <script src="trans.js"></script>
 </head>
 
 <body>
@@ -14,20 +13,19 @@
         </tr>
         <td><input type="number" id="sotien"></td>
         <td><select name="money1" id="money1">
-                <option value="VND">VietNam</option>
-                <option value="USD">USD</option>
-                <option value="EUR">EUR</option>
+                <option value="23000" id="VND">VND</option>
+                <option value="1">USD</option>
             </select></td>
         <td><select name="money2" id="money2">
-                <option value="VND">VND</option>
-                <option value="USD">USD</option>
-                <option value="EUR">EUR</option>
+                <option value="23000">VND</option>
+                <option value="1">USD</option>
             </select></td>
-        <td><button type="button">Convert</button></td>
+        <td><button id="convert" type="button">Convert</button></td>
         <tr>
             <td colspan="3" id="ketqua"></td>
         </tr>
     </table>
+    <script src="trans.js"></script>
 </body>
 
 </html>
